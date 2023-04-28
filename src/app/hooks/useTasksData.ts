@@ -4,7 +4,7 @@ import uuid from '../helpers/uuid';
 
 /** Returns the tasks state, and functions to update the tasks state. */
 export function useTasksData() {
-    const [tasks, setTasks] = useState<Task[]>([{ id: uuid(), title: "", description: "", completed: false }]);
+    const [tasks, setTasks] = useState<Task[]>([]);
 
     /**
      * Creates a new task from a title and description, with completed as false.
