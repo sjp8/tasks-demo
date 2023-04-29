@@ -11,3 +11,11 @@ A demo web application that allows users to create and manage tasks.
 ## Demo URL
 
 https://tasks-demo-sjp.web.app/
+
+## Building and Deployment
+
+For deployment, requires a firebase CLI installation (`npm i -g firebase-tools`) having invoked `firebase login` in the CLI, and `firebase use` selecting your project of choice. Edit and change `.firebaserc` to your project name.
+
+* `npm install`
+* `npm run build`
+* `npm run deploy`
