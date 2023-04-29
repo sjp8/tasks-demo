@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "./.firebase/tasks-demo-sjp/hosting",
+    "public": "out",
     "ignore": [
       "firebase.json",
       "**/.*",
